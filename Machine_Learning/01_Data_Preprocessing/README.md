@@ -102,7 +102,7 @@ The main 2 feature scaling methos are:
 
 * Standardisation
 
-  $x_{stand}=\frac{x-mean(x)}{sd^*(x)}$
+  $x_{stand}=\frac{x-mean(x)}{sd^*(x)}$  
 
   sd = standard deviation
 
