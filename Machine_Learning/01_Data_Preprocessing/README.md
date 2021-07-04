@@ -102,13 +102,13 @@ The main 2 feature scaling methos are:
 
 * Standardisation
 
-  ![$x_{stand}=\frac{x-mean(x)}{sd^*(x)}$](https://latex.codecogs.com/svg.image?\bg_white&space;x_{stand}=\frac{x-mean(x)}{sd^*(x)})
+  ![$x_{stand}=\frac{x-mean(x)}{sd^*(x)}$](https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;x_{stand}=\frac{x-mean(x)}{sd^*(x)})
 
   sd = standard deviation
 
 * Normalisation
 
-  ![$x_{norm}=\frac{x-min(x)}{max(x)-min(x)}$](https://latex.codecogs.com/svg.image?\bg_white&space;x_{norm}=\frac{x-min(x)}{max(x)-min(x)})
+  ![$x_{norm}=\frac{x-min(x)}{max(x)-min(x)}$](https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;x_{norm}=\frac{x-min(x)}{max(x)-min(x)})
 
 Normalization converts numbers to the interval of 0 and 1, but standardization converts them to the interval of -3 and 3.
 Normalization is recommended if we have a normal distribution, but standardisation works well most of the time. We use standardization as shown bellow:
