@@ -34,29 +34,44 @@ The model line shows us where these red crosses should be according to the model
 
 ## Practical
 
-The library we use for simple linear regression is from scikit-learn:
+### Training the Simple Linear Regression model on the Training set
 
 ```python
 from sklearn.linear_model import LinearRegression
-```
-
-To create the simple linear regression model and fit the model on the data, we do this:
-
-```python
 regressor = LinearRegression()
-regressor.fit(X_train, y_train)
+regressor.fit(X=X_train, y=y_train)
 ```
 
-To predict with the trained model, we simply do this:
+### Predicting the Test set results
 
 ```python
-regressor.predict(X_test)
+y_pred = regressor.predict(X=X_test)
 ```
 
 ### Visualising the Training set results
+
+```python
+plt.scatter(x=X_train, y=y_train, color="red")
+plt.plot(X_train, regressor.predict(X=X_train), color="blue")
+plt.title(label="Salary vs Experience (Training set)")
+plt.xlabel(xlabel="Years of Experience")
+plt.ylabel(ylabel="Salary")
+plt.show()
+```
 
 ![training vis](vis_train.png)
 
 ### Visualising the Test set results
 
+```python
+plt.scatter(x=X_test, y=y_test, color="red")
+plt.plot(X_test, y_pred, color="blue")
+plt.title(label="Salary vs Experience (Test set)")
+plt.xlabel(xlabel="Years of Experience")
+plt.ylabel(ylabel="Salary")
+plt.show()
+```
+
 ![training vis](vis_test.png)
+
+The thing to note here is that the plot functions work the same with both X_train and regressor.predict(X_train). That is because the regressor was fitted on one dataset and has created a single unique equation.
