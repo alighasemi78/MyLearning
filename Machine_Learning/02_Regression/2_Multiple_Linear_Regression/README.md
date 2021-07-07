@@ -98,23 +98,19 @@ As can be seen this method is very resourse and time consuming
 
 ## Practical
 
-The library we use for multiple linear regression is from scikit-learn:
+
+### Training the Multiple Linear Regression model on the Training set
 
 ```python
 from sklearn.linear_model import LinearRegression
-```
-
-To create the multiple linear regression model and fit the model on the data, we do this:
-
-```python
 regressor = LinearRegression()
-regressor.fit(X_train, y_train)
-```
-
-To predict with the trained model, we simply do this:
-
-```python
-regressor.predict(X_test)
+regressor.fit(X=X_train, y=y_train)
 ```
 
 The think to note is that we do not to worry about the dummy trap, because the scikit-learn takes care of it for us.
+
+### Predicting the Test set results
+
+```python
+y_pred = regressor.predict(X=X_test)
+```
