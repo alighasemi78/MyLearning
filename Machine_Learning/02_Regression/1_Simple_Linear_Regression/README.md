@@ -16,19 +16,19 @@ The variables and coefficients are:
 
 Let's look at an example:
 
-![chart](chart.PNG)
+![chart](chart-min.PNG)
 
 We want to understand how salary depends on people's experience. The red dots are some observations that we have. Simple regression draws the black line that tries to fit the data in the best way. The Constant mean the point where the line crosses the y axes.
 
-![chart2](chart2.PNG)
+![chart2](chart2-min.PNG)
 
 It means when experience is 0, salary is 30,000 dolors. b1 is the slope of the line. The steeper the line, greater b1 is.
 
-![chart3](chart3.PNG)
+![chart3](chart3-min.PNG)
 
 ### Best Fitting Line
 
-![chart4](chart4.PNG)
+![chart4](chart4-min.PNG)
 
 The model line shows us where these red crosses should be according to the model. "y" is what the observation shows us and "y^" is what the model predicts where "y" should be. The green line between them is the distance of "y" and "y^". Simple linear regression draws a lot of these lines for all the observations and calculate the distance with ( y - y^ )^2^ and then calculate the sum of this formula for all of the observations and finally find the minimum of these sums for different model lines. This method is called **Ordinary Least Squares**.
 
