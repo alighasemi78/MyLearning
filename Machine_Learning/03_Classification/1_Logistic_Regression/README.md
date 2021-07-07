@@ -4,12 +4,12 @@
 
 We know how to predict a value for the experience/salary example with regression models, but what about predicting categories. Imagine an email system trying to predict whether or not the user will take action on an email or not. The sample that we have is something like this:
 
-![chart](chart-min.png)
+![chart](chart-min.PNG)
 
 How can we model this? Let's think of this problem as a probability problem. Remember that probability is between 0 and 1; and our dataset is between 0 and 1. So, we will try to find the probability of the person taking action on the email or not. So, we can use the linear regression model to predict the probability value for a the users.
 If we use the sigmoid function on the linear regression model we will get a good model to predict the values.
 
-![chart2](chart2-min.png)
+![chart2](chart2-min.PNG)
 
 We are trying to find the best fitting line through our points and that is what we get.
 To find out whether a person will take action on the email or not, we have to find the value of the person in this function. However, the values we get are just probabilities and to find the actual category we have to choose a probability like 0.5; if a person's probability is less than 0.5 they will not take action on the email and vice versa.
