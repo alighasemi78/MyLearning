@@ -4,7 +4,7 @@
 
 Imagine the following dataset:
 
-![chart](chart-min.png)
+![chart](chart-min.PNG)
 
 As can be seen, we have 2 categories. Now, imagine we have a new data in our database. Should it fall in red category or green?
 
