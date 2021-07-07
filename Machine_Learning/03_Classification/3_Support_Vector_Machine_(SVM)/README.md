@@ -6,7 +6,7 @@ In SVM we try to find the best line that seperates different categories. SVM doe
 
 The image bellow best explains SVM:
 
-![chart](chart-min.png)
+![chart](chart-min.PNG)
 
 ### What is special about SVMs?
 
