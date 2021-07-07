@@ -4,16 +4,16 @@
 
 Imagine a dataset like below:
 
-![chart](chart-min.png)
+![chart](chart-min.PNG)
 
 What happens when you run the decision tree algorithm is that the dataset will split up in segments. For instance, the dataset above will spilt up to these segments:
 
-![chart2](chart2-min.png)
+![chart2](chart2-min.PNG)
 
 The algorithm continues to split until it knows that by splitting, the amount of information added to its knowledge is less than the minimum.
 The reason it is called a decision tree is that when we do the splits, when a new point is added then we have to check some questions to find the predicted value.
 
-![chart3](chart3-min.png)
+![chart3](chart3-min.PNG)
 
 How to predict the new value? When we know in which segment the new point will fall, then the value of this point is the average of the values of that segment.
 
