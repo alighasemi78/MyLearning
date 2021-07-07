@@ -16,7 +16,7 @@ The steps that we should take in the K-NN algorithm are:
 
 After these steps our model is ready.
 
-Euclidean distance between P~1~ and P~2~:
+Euclidean distance between P1 and P2:  
 ![EuDis formula](EuDis%20formula.png)
 
 ## Practical
