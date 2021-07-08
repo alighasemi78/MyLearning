@@ -10,3 +10,4 @@
 6. [Decision Tree Classification](6_Decision_Tree_Classification)
 7. [Random Forest Classification](7_Random_Forest_Classification)
 8. [Classification Model Selection in Python](8_Classification_Model_Selection_in_Python)
+9. [Evaluating Classification Models Performance](9_Evaluating_Classification_Models_Performance)
