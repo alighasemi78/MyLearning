@@ -26,6 +26,10 @@ We will continue these steps until we get this:
 
 ![chart5](chart5-min.PNG)
 
+Here is the algorithm:
+
+![algorithm](Thompson_Sampling_Slide-min.png)
+
 ### UCB vs Thompson
 
 * UCB is **deterministic**, but Thompson is **probabilistic**
