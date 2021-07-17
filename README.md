@@ -5,3 +5,4 @@
 ### Table of Contents
 
 * [Machine Learning](Machine_Learning)
+* [Deep Learning](Deep_Learning)
