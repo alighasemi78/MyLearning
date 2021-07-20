@@ -6,3 +6,4 @@
 
 * [Machine Learning](Machine_Learning)
 * [Deep Learning](Deep_Learning)
+* [Artificial Intelligence](Artificial_Intelligence)
